@@ -44,7 +44,6 @@ def ingest_new_blocks():
                 print(f"Enviado bloco {height} para Kafka")
                 last_height = height
         time.sleep(3)
-        break
 
 if __name__ == "__main__":
     ingest_new_blocks()
